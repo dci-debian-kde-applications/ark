@@ -1,6 +1,0 @@
-#dev .so symlinks, we aren't shipping dev suff for these
-./usr/lib/libkerfuffle.so
-
-#manpages, actually installed but compressed
-./usr/share/man/man1/ark.1
-

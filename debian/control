@@ -30,3 +30,15 @@ Description: archive utility
  modify archives.
  .
  This package is part of the KDE SC utilities module.
+
+
+Package: ark-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: ${misc:Depends}, ark (= ${binary:Version})
+Description: debugging symbols for ark
+ This package contains debugging files used to investigate problems with
+ binaries included in ark.
+ .
+ This package is part of the KDE SC utilities module.

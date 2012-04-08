@@ -1,5 +1,7 @@
 ark (4:4.8.2-0r0) UNRELEASED; urgency=low
 
+  TODO: Update copyright file.
+
   * Initial packaging, split from kdeutils.
   * Update Standards-Version to 3.9.3, no further changes.
   * Add ark-dbg package.

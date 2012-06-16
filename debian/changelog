@@ -1,4 +1,4 @@
-ark (4:4.8.3-0r0) UNRELEASED; urgency=low
+ark (4:4.8.4-0r0) UNRELEASED; urgency=low
 
   * Initial packaging, split from kdeutils.
   * Update Standards-Version to 3.9.3, no further changes.

@@ -1,3 +1,10 @@
+ark (4:4.8.4-1r0) UNRELEASED; urgency=low
+
+  [ Eshat Cakar ]
+  * Add Breaks/Replaces with previous kdeutils-dbg packages.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 22 Jun 2012 10:03:40 +0200
+
 ark (4:4.8.4-1) unstable; urgency=low
 
   * Initial packaging, split from kdeutils.

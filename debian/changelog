@@ -1,8 +1,8 @@
-ark (4:4.10.3-1) UNRELEASED; urgency=low
+ark (4:4.10.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 28 May 2013 22:36:40 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 19:39:57 +0200
 
 ark (4:4.10.2-1) experimental; urgency=low
 

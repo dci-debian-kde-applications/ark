@@ -11,12 +11,12 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
 Build-Depends: kde-sc-dev-latest (>= 4:4.10.1),
  cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
  kdelibs5-dev (>= 4:4.10), libkonq5-dev (>= 4:4.10),
- libarchive-dev, zlib1g-dev, libbz2-dev, liblzma-dev
+ libarchive-dev, zlib1g-dev, libbz2-dev, liblzma-dev,
+ libqjson-dev
 Standards-Version: 3.9.4
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/ark.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/ark.git
-
 
 Package: ark
 Section: utils
@@ -24,13 +24,12 @@ Architecture: any
 Recommends: bzip2, p7zip-full, zip, unzip
 Suggests: rar, unrar | unrar-free
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: archive utility 
+Description: archive utility
  Ark manages various archive formats, including tar, gzip, bzip2, rar and zip,
  as well as CD-ROM images.  Ark can be used to browse, extract, create, and
  modify archives.
  .
  This package is part of the KDE SC utilities module.
-
 
 Package: ark-dbg
 Section: debug

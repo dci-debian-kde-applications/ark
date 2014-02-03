@@ -8,11 +8,17 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
            George Kiagiadakis <kiagiadakis.george@gmail.com>,
            Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdelibs5-dev (>= 4:4.11), libkonq5-dev (>= 4:4.11),
- libarchive-dev, zlib1g-dev, libbz2-dev, liblzma-dev,
- libqjson-dev
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdelibs5-dev (>= 4:4.11),
+               libarchive-dev,
+               libbz2-dev,
+               libkonq5-dev (>= 4:4.11),
+               liblzma-dev,
+               libqjson-dev,
+               pkg-kde-tools (>= 0.12),
+               zlib1g-dev
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/ark.git
@@ -21,9 +27,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/ark.git
 Package: ark
 Section: utils
 Architecture: any
-Recommends: bzip2, p7zip-full, zip, unzip
+Recommends: bzip2, p7zip-full, unzip, zip
 Suggests: rar, unrar | unrar-free
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: archive utility
  Ark manages various archive formats, including tar, gzip, bzip2, rar and zip,
  as well as CD-ROM images.  Ark can be used to browse, extract, create, and
@@ -35,7 +41,7 @@ Package: ark-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, ark (= ${binary:Version})
+Depends: ark (= ${binary:Version}), ${misc:Depends}
 Replaces: kdeutils-dbg (<< 4:4.8)
 Breaks: kdeutils-dbg (<< 4:4.8)
 Description: debugging symbols for ark

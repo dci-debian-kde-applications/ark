@@ -1,0 +1,31 @@
+commit 17ef504d8b63a864cd7d1ef7d4400027f4ec78db
+Author: Maximiliano Curia <maxy@debian.org>
+Date:   Thu Feb 27 11:25:38 2014 +0100
+
+    Use libarchive for zip files.
+
+diff --git a/plugins/clizipplugin/CMakeLists.txt b/plugins/clizipplugin/CMakeLists.txt
+index 5e180fb..cb80301 100644
+--- a/plugins/clizipplugin/CMakeLists.txt
++++ b/plugins/clizipplugin/CMakeLists.txt
+@@ -1,6 +1,6 @@
+ ########### next target ###############
+ 
+-set(SUPPORTED_CLIZIP_MIMETYPES "application/x-java-archive;application/zip;")
++set(SUPPORTED_CLIZIP_MIMETYPES "application/x-java-archive;")
+ 
+ set(kerfuffle_clizip_SRCS cliplugin.cpp)
+ 
+diff --git a/plugins/libarchive/CMakeLists.txt b/plugins/libarchive/CMakeLists.txt
+index 5d6d009..14a1b22 100644
+--- a/plugins/libarchive/CMakeLists.txt
++++ b/plugins/libarchive/CMakeLists.txt
+@@ -2,7 +2,7 @@ include_directories(${LIBARCHIVE_INCLUDE_DIR})
+ 
+ ########### next target ###############
+ set(SUPPORTED_LIBARCHIVE_READONLY_MIMETYPES "application/x-deb;application/x-cd-image;application/x-bcpio;application/x-cpio;application/x-cpio-compressed;application/x-sv4cpio;application/x-sv4crc;")
+-set(SUPPORTED_LIBARCHIVE_READWRITE_MIMETYPES "application/x-tar;application/x-compressed-tar;application/x-bzip-compressed-tar;application/x-tarz;application/x-xz-compressed-tar;application/x-lzma-compressed-tar;")
++set(SUPPORTED_LIBARCHIVE_READWRITE_MIMETYPES "application/x-tar;application/x-compressed-tar;application/x-bzip-compressed-tar;application/x-tarz;application/x-xz-compressed-tar;application/x-lzma-compressed-tar;application/zip")
+ if(HAVE_LIBARCHIVE_RPM_SUPPORT)
+   set(SUPPORTED_LIBARCHIVE_READONLY_MIMETYPES "${SUPPORTED_LIBARCHIVE_READONLY_MIMETYPES}application/x-rpm;application/x-source-rpm;")
+ endif(HAVE_LIBARCHIVE_RPM_SUPPORT)

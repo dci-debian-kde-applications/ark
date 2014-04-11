@@ -1,9 +1,9 @@
-ark (4:4.12.4-1) UNRELEASED; urgency=medium
+ark (4:4.12.4-1~) UNRELEASED; urgency=medium
 
   * New patch: use_libarchive_for_zip_files (Closes: #723963)
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Mar 2014 17:40:29 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 11 Apr 2014 11:48:14 +0200
 
 ark (4:4.12.3-1) experimental; urgency=medium
 

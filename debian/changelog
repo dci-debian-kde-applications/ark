@@ -1,3 +1,9 @@
+ark (4:4.12.4-2) UNRELEASED; urgency=low
+
+  * Fix use_libarchive_for_zip_files. Thanks to Augusto Beiro for noticing.
+
+ -- Sune Vuorela <sune@debian.org>  Fri, 16 May 2014 21:32:12 +0200
+
 ark (4:4.12.4-1) unstable; urgency=medium
 
   * New patch: use_libarchive_for_zip_files (Closes: #723963)

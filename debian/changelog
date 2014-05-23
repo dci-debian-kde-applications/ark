@@ -1,4 +1,4 @@
-ark (4:4.13.1-1) UNRELEASED; urgency=low
+ark (4:4.13.1-1~) UNRELEASED; urgency=low
 
   [ Sune Vuorela ]
   * Fix use_libarchive_for_zip_files. Thanks to Augusto Beiro for noticing.
@@ -6,7 +6,7 @@ ark (4:4.13.1-1) UNRELEASED; urgency=low
   [ Maximiliano Curia ]
   * New upstream release.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 13:50:55 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 May 2014 14:02:15 +0200
 
 ark (4:4.12.4-1) unstable; urgency=medium
 

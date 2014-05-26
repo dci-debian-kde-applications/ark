@@ -2,6 +2,7 @@ ark (4:4.13.1-1~) UNRELEASED; urgency=low
 
   [ Sune Vuorela ]
   * Fix use_libarchive_for_zip_files. Thanks to Augusto Beiro for noticing.
+    (Closes: #748198)
 
   [ Maximiliano Curia ]
   * New upstream release.

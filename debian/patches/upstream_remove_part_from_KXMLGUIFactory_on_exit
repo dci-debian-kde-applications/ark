@@ -1,0 +1,31 @@
+commit 3b981ca95d8ec10f12102e4432912d12be8233a6
+Author: Elvis Angelaccio <elvis.angelaccio@kdemail.net>
+Date:   Sat Oct 25 14:53:24 2014 +0200
+
+    Remove Part from KXMLGUIFactory on exit.
+    
+    This commit fixes a KXMLGUIClient warning about a possible crash due to leaks.
+    
+    REVIEW: 120783
+
+diff --git a/part/part.cpp b/part/part.cpp
+index 09fe1cb..bae4882 100644
+--- a/part/part.cpp
++++ b/part/part.cpp
+@@ -53,6 +53,7 @@
+ #include <KStandardGuiItem>
+ #include <KTempDir>
+ #include <KToggleAction>
++#include <KXMLGUIFactory>
+ 
+ #include <QAction>
+ #include <QCursor>
+@@ -137,6 +138,8 @@ Part::Part(QWidget *parentWidget, QObject *parent, const QVariantList& args)
+ 
+ Part::~Part()
+ {
++    factory()->removeClient(this);
++
+     saveSplitterSizes();
+ 
+     m_extractFilesAction->menu()->deleteLater();

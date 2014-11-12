@@ -32,7 +32,7 @@ Index: ark/plugins/libarchive/CMakeLists.txt
 Index: ark/plugins/libarchive/libarchivehandler.cpp
 ===================================================================
 --- ark.orig/plugins/libarchive/libarchivehandler.cpp	2014-11-11 18:14:09.303817277 +0100
-+++ ark/plugins/libarchive/libarchivehandler.cpp	2014-11-12 09:25:48.214174948 +0100
++++ ark/plugins/libarchive/libarchivehandler.cpp	2014-11-12 12:21:34.649576669 +0100
 @@ -50,7 +50,7 @@
      static inline void cleanup(struct archive *a)
      {
@@ -120,7 +120,7 @@ Index: ark/plugins/libarchive/libarchivehandler.cpp
              emit error(i18n("The source file could not be read."));
              return false;
          }
-@@ -376,76 +380,96 @@
+@@ -376,76 +380,98 @@
          return false;
      }
  
@@ -162,6 +162,8 @@ Index: ark/plugins/libarchive/libarchivehandler.cpp
          } else if (filename().right(3).toUpper() == QLatin1String( "TAR" )) {
              kDebug() << "Detected no compression for new file (pure tar)";
 -            ret = archive_write_set_compression_none(arch_writer.data());
++        } else if (filename().right(4).toUpper() == QLatin1String( ".ZIP" )) {
++            // No filter for zip files
          } else {
              kDebug() << "Falling back to gzip";
 -            ret = archive_write_set_compression_gzip(arch_writer.data());
@@ -257,7 +259,7 @@ Index: ark/plugins/libarchive/libarchivehandler.cpp
          return false;
      }
  
-@@ -474,8 +498,9 @@
+@@ -474,8 +500,9 @@
                      continue;
                  }
  
@@ -269,7 +271,7 @@ Index: ark/plugins/libarchive/libarchivehandler.cpp
                                      arch_writer.data());
  
                  if (!success) {
-@@ -486,33 +511,39 @@
+@@ -486,33 +513,39 @@
          }
      }
  
@@ -319,7 +321,7 @@ Index: ark/plugins/libarchive/libarchivehandler.cpp
          //everything seems OK, so we remove the source file and replace it with
          //the new one.
          //TODO: do some extra checks to see if this is really OK
-@@ -534,7 +565,7 @@
+@@ -534,7 +567,7 @@
          return false;
      }
  
@@ -328,7 +330,7 @@ Index: ark/plugins/libarchive/libarchivehandler.cpp
          return false;
      }
  
-@@ -542,7 +573,9 @@
+@@ -542,7 +575,9 @@
          return false;
      }
  
@@ -339,7 +341,7 @@ Index: ark/plugins/libarchive/libarchivehandler.cpp
          emit error(i18n("The source file could not be read."));
          return false;
      }
-@@ -553,50 +586,53 @@
+@@ -553,50 +588,53 @@
          return false;
      }
  
@@ -433,7 +435,7 @@ Index: ark/plugins/libarchive/libarchivehandler.cpp
          if (files.contains(QFile::decodeName(archive_entry_pathname(entry)))) {
              archive_read_data_skip(arch_reader.data());
              kDebug() << "Entry to be deleted, skipping"
-@@ -604,17 +640,20 @@
+@@ -604,17 +642,20 @@
              emit entryRemoved(QFile::decodeName(archive_entry_pathname(entry)));
              continue;
          }
@@ -458,7 +460,7 @@ Index: ark/plugins/libarchive/libarchivehandler.cpp
      }
  
      //everything seems OK, so we remove the source file and replace it with
-@@ -648,7 +687,7 @@
+@@ -648,7 +689,7 @@
      }
  
      e[Size] = (qlonglong)archive_entry_size(aentry);

@@ -2,7 +2,7 @@ ark (4:4.14.2-2~1) UNRELEASED; urgency=medium
 
   * New upstream patch: upstream_remove_part_from_KXMLGUIFactory_on_exit
   * Update patch: use_libarchive_for_zip_files, handle adding and
-    deleting files from a zip file
+    deleting files from a zip file (Closes: #769099)
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 12 Nov 2014 13:36:17 +0100
 

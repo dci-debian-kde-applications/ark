@@ -1,6 +1,6 @@
 ark (4:14.11.95-0ubuntu1) vivid; urgency=medium
 
-  * New upstream release.
+  * New upstream release for kde-applications.
    - Change maintainer to Debian/Kubuntu
   * Debian merge: No remaining changes.
 

@@ -1,6 +1,8 @@
 ark (4:4.14.2-3~) UNRELEASED; urgency=medium
 
-  * 
+  * New upstream patch: upstream_stop_crashing_on_exit properly fixes
+    upstream_remove_part_from_KXMLGUIFactory_on_exit (Closes: #770840)
+    Thanks to Tsu Jan
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 08 Dec 2014 20:58:06 +0100
 

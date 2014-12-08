@@ -1,2 +1,3 @@
 use_libarchive_for_zip_files
 upstream_remove_part_from_KXMLGUIFactory_on_exit
+upstream_stop_crashing_on_exit

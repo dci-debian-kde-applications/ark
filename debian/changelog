@@ -1,3 +1,9 @@
+ark (4:4.14.3-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (4.14.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 23 Feb 2015 14:32:20 +0100
+
 ark (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
@@ -19,8 +25,8 @@ ark (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
 ark (4:14.11.95-0ubuntu2) vivid; urgency=medium
 
-  * Fix Watch file applications locations 
-  * Fix VCS for new kde-applications location 
+  * Fix Watch file applications locations
+  * Fix VCS for new kde-applications location
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 24 Nov 2014 07:43:26 -0800
 
@@ -492,7 +498,7 @@ ark (4:4.8.2-0ubuntu1) precise; urgency=low
 ark (4:4.8.1-0ubuntu1) precise; urgency=low
 
   [ Philip Muškovac ]
-  * New upstream release 
+  * New upstream release
 
   [ Felix Geyer ]
   * Make ark-dbg depend on ark.
@@ -526,4 +532,3 @@ ark (4:4.7.90-0ubuntu1) precise; urgency=low
    - ark does not support CD images - fix description
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 15 Dec 2011 14:20:40 +0000
-

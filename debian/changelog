@@ -4,11 +4,20 @@ ark (4:14.12.3-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 26 Mar 2015 13:18:46 +0100
 
+ark (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 14:15:02 -0700
+
 ark (4:14.12.2-1) experimental; urgency=medium
 
   * New upstream release (4.14.3).
   * New upstream release (14.12.2).
   * Bump Standards-Version to 3.9.6, no changes needed.
+  * New upstream patch: upstream_stop_crashing_on_exit properly fixes
+    upstream_remove_part_from_KXMLGUIFactory_on_exit (Closes: #770840)
+    Thanks to Tsu Jan
   * Remove upstream patch:
     upstream_remove_part_from_KXMLGUIFactory_on_exit
   * Remove upstream patch: upstream_stop_crashing_on_exit
@@ -48,14 +57,6 @@ ark (4:14.11.95-0ubuntu1) vivid; urgency=medium
   * Debian merge: No remaining changes.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 21 Nov 2014 20:53:15 +0000
-
-ark (4:4.14.2-3~) UNRELEASED; urgency=medium
-
-  * New upstream patch: upstream_stop_crashing_on_exit properly fixes
-    upstream_remove_part_from_KXMLGUIFactory_on_exit (Closes: #770840)
-    Thanks to Tsu Jan
-
- -- Maximiliano Curia <maxy@debian.org>  Mon, 08 Dec 2014 20:58:06 +0100
 
 ark (4:4.14.2-2) unstable; urgency=medium
 
@@ -176,12 +177,6 @@ ark (4:4.12.90-0ubuntu1) trusty; urgency=medium
   * New upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:29:32 +0000
-
-ark (4:4.12.4-2) UNRELEASED; urgency=low
-
-  * Fix use_libarchive_for_zip_files. Thanks to Augusto Beiro for noticing.
-
- -- Sune Vuorela <sune@debian.org>  Fri, 16 May 2014 21:32:12 +0200
 
 ark (4:4.12.4-1) unstable; urgency=medium
 

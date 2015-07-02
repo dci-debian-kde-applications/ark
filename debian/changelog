@@ -1,3 +1,9 @@
+ark (4:15.04.3-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 16:54:44 +0000
+
 ark (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]

@@ -4,6 +4,9 @@ ark (4:15.04.3-1~) UNRELEASED; urgency=medium
   * New upstream release (15.04.1).
   * New upstream release (15.04.2).
   * New upstream release (15.04.3).
+  * Drop usage of libarchive for zip files.
+  * Rename patch: use_libarchive_for_zip_files ->
+    update_libarchive_support
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:49:52 +0200
 

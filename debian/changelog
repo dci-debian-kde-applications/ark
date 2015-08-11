@@ -1,10 +1,14 @@
-ark (4:15.04.3-0ubuntu1) UNRELEASED; urgency=medium
+ark (4:15.07.80-1ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream release
   * Remove Debian patch use_libarchive_for_zip_files, it causes problems
     LP: #1404239
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 02 Jul 2015 16:54:44 +0000
+  [ Aaron Honeycutt ]
+  * Ported to KF5
+
+ -- Aaron Honeycutt <aaronhoneycutt@kubuntu.org>  Fri, 07 Aug 2015 13:23:05 +0000
 
 ark (4:15.04.2-0ubuntu1) wily; urgency=medium
 

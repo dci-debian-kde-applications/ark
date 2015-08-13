@@ -1,4 +1,4 @@
-ark (4:15.07.80-1ubuntu1) UNRELEASED; urgency=medium
+ark (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -8,7 +8,10 @@ ark (4:15.07.80-1ubuntu1) UNRELEASED; urgency=medium
   [ Aaron Honeycutt ]
   * Ported to KF5
 
- -- Aaron Honeycutt <aaronhoneycutt@kubuntu.org>  Fri, 07 Aug 2015 13:23:05 +0000
+  [ Jonathan Riddell ]
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 10:22:08 +0100
 
 ark (4:15.04.2-0ubuntu1) wily; urgency=medium
 

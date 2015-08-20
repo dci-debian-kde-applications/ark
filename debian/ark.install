@@ -1,7 +1,7 @@
 etc/xdg/ark.categories
 usr/bin/ark
 usr/lib/*/libkerfuffle.so.15
-usr/lib/*/libkerfuffle.so.15.07.80
+usr/lib/*/libkerfuffle.so.15.*
 usr/lib/*/qt5/plugins/*
 usr/share/appdata/ark.appdata.xml
 usr/share/applications/org.kde.ark.desktop
@@ -9,5 +9,6 @@ usr/share/config.kcfg/ark.kcfg
 usr/share/doc/HTML/*/ark/*
 usr/share/icons/hicolor/*/apps/*
 usr/share/kservices5/*
+usr/share/kservicetypes5/*
 usr/share/kxmlgui5/ark/*
 usr/share/man/man1/ark.1

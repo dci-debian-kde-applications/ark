@@ -1,4 +1,4 @@
-ark (4:15.08.0-1~) UNRELEASED; urgency=medium
+ark (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
@@ -11,7 +11,7 @@ ark (4:15.08.0-1~) UNRELEASED; urgency=medium
   * Update build dependencies.
   * Update copyright file.
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 06 Sep 2015 10:31:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 06 Sep 2015 15:54:46 +0200
 
 ark (4:15.08.0-0ubuntu1) wily; urgency=medium
 

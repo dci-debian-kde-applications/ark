@@ -1,4 +1,4 @@
-ark (4:15.04.3-1~) UNRELEASED; urgency=medium
+ark (4:15.08.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.04.1).
@@ -7,8 +7,9 @@ ark (4:15.04.3-1~) UNRELEASED; urgency=medium
   * Drop usage of libarchive for zip files.
   * Rename patch: use_libarchive_for_zip_files ->
     update_libarchive_support
+  * New upstream release (15.08.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 03 Jul 2015 16:49:52 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 06 Sep 2015 10:31:14 +0200
 
 ark (4:14.12.3-1) experimental; urgency=medium
 

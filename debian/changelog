@@ -8,6 +8,7 @@ ark (4:15.08.0-1~) UNRELEASED; urgency=medium
   * Rename patch: use_libarchive_for_zip_files ->
     update_libarchive_support
   * New upstream release (15.08.0).
+  * Update build dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 06 Sep 2015 10:31:14 +0200
 

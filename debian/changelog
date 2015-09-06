@@ -12,6 +12,38 @@ ark (4:15.08.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 06 Sep 2015 10:31:14 +0200
 
+ark (4:15.08.0-0ubuntu1) wily; urgency=medium
+
+  * new upstream release
+
+ -- Ubuntu <ubuntu@ip-10-170-33-178.ec2.internal>  Wed, 26 Aug 2015 16:11:19 +0100
+
+ark (4:15.07.90-0ubuntu1) wily; urgency=medium
+
+  [ Jonathan Riddell ]
+  * New upstream release
+  * Remove Debian patch use_libarchive_for_zip_files, it causes problems
+    LP: #1404239
+
+  [ Aaron Honeycutt ]
+  * Ported to KF5
+
+  [ Jonathan Riddell ]
+  * new upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 08:55:10 +0100
+
+ark (4:15.04.2-0ubuntu1) wily; urgency=medium
+
+  [ Scarlett Clark ]
+  * New upstream release
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:19:31 +0200
+
 ark (4:14.12.3-1) experimental; urgency=medium
 
   * New upstream release (14.12.3).

@@ -3,7 +3,7 @@ usr/bin/ark
 usr/lib/*/libkerfuffle.so.15
 usr/lib/*/libkerfuffle.so.15.*
 usr/lib/*/qt5/plugins/*
-usr/share/appdata/ark.appdata.xml
+usr/share/appdata/org.kde.ark.appdata.xml
 usr/share/applications/org.kde.ark.desktop
 usr/share/config.kcfg/ark.kcfg
 usr/share/doc/HTML/*/ark/*

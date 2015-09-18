@@ -39,6 +39,9 @@ ark (4:15.04.2-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:19:31 +0200
+
 ark (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release

@@ -8,3 +8,7 @@ override_dh_strip:
 override_dh_auto_install:
 	dh_auto_install --destdir=debian/ark
 	rm  debian/ark/usr/lib/*/libkerfuffle.so
+
+override_dh_auto_test:
+	# Disable auto tests at build time
+	:

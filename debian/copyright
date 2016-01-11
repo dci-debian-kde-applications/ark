@@ -3,67 +3,112 @@ Upstream-Name: ark
 Source: ftp://ftp.kde.org
 
 Files: *
-Copyright: 2008-2009, Harald Hvaal <haraldhv AT stud.ntnu.no>
-	   2009-2011, Raphael Kubo da Costa <kubito@gmail.com>
-	   2004-2008, Henrique Pinto <henrique.pinto@kdemail.net>
-	   2002-2003, Georg Robbers <Georg.Robbers@urz.uni-hd.de>
-	   2003, Helio Chissini de Castro <helio@conectiva.com>
-	   2011, Intzoglou Theofilos <int.teo@gmail.com>
-	   2008, Claudio Bantaloukas <rockdreamer@gmail.com>
+Copyright: 2008, Claudio Bantaloukas <rockdreamer@gmail.com>
+           1989-1991, Free Software Foundation, Inc
+           2002-2003, Georg Robbers <Georg.Robbers@urz.uni-hd.de>
+           2008-2009, Harald Hvaal <haraldhv (at@at) stud.ntnu.no>
+           2008-2009, Harald Hvaal <haraldhv@stud.ntnu.no>
+           2003, Helio Chissini de Castro <helio@conectiva.com>
+           2004-2008, Henrique Pinto <henrique.pinto@kdemail.net>
+           2011, Intzoglou Theofilos <int.teo@gmail.com>
+           2009-2014, Raphael Kubo da Costa <rakuco@FreeBSD.org>
 License: GPL-2+
 
-Files: cmake/modules/FindLibArchive.cmake
-Copyright: 2007, Pino Toscano <toscano.pino@tiscali.it>
-License: BSD-3-clause
+Files: apps/icons/*
+       COPYING.icons
+Copyright: 2007, David Miller <miller@oxygen-icons.org>
+           2007, David Vignoni <david@icon-king.com>
+           2007, Free Software Foundation, Inc. <http://fsf.org/>
+           2007, Johann Ollivier Lapeyre <johann@oxygen-icons.org>
+           2007, Kenneth Wimer <kwwii@bootsplash.org>
+           2007, Nuno Pinheiro <nuno@oxygen-icons.org>
+           2007, Riccardo Iaconelli <riccardo@oxygen-icons.org>
+License: LGPL-3+
+Comments:
+ The GNU Lesser General Public License or LGPL is written for
+ software libraries in the first place. We expressly want the LGPL to
+ be valid for this artwork library too.
+ .
+ KDE Oxygen theme icons is a special kind of software library, it is an
+ artwork library, it's elements can be used in a Graphical User Interface, or
+ GUI.
+ .
+ Source code, for this library means:
+  - where they exist, SVG;
+  - otherwise, if applicable, the multi-layered formats xcf or psd, or
+ otherwise png.
+ .
+ The LGPL in some sections obliges you to make the files carry
+ notices. With images this is in some cases impossible or hardly useful.
+ .
+ With this library a notice is placed at a prominent place in the directory
+ containing the elements. You may follow this practice.
+ .
+ The exception in section 5 of the GNU Lesser General Public License covers
+ the use of elements of this art library in a GUI.
+ .
+ kde-artists [at] kde.org
 
-Files: app/batchextract.*
-Copyright: 2008, Harald Hvaal <haraldhv@stud.ntnu.no>
-	   2009-2010, Raphael Kubo da Costa <kubito@gmail.com>
+Files: app/batchextract.cpp
+       app/batchextract.h
+       kerfuffle/adddialog.cpp
+       kerfuffle/adddialog.h
+       kerfuffle/addtoarchive.cpp
+       kerfuffle/addtoarchive.h
+       kerfuffle/archive_kerfuffle.cpp
+       kerfuffle/archive_kerfuffle.h
+       kerfuffle/archiveinterface.cpp
+       kerfuffle/archiveinterface.h
+       kerfuffle/cliinterface.cpp
+       kerfuffle/cliinterface.h
+       kerfuffle/createdialog.cpp
+       kerfuffle/createdialog.h
+       kerfuffle/extractiondialog.cpp
+       kerfuffle/extractiondialog.h
+       kerfuffle/extractionsettingspage.cpp
+       kerfuffle/extractionsettingspage.h
+       kerfuffle/jobs.cpp
+       kerfuffle/jobs.h
+       kerfuffle/kerfuffle_macro.h
+       kerfuffle/previewsettingspage.cpp
+       kerfuffle/previewsettingspage.h
+       kerfuffle/queries.cpp
+       kerfuffle/queries.h
+       kerfuffle/settingspage.cpp
+       kerfuffle/settingspage.h
+       kerfuffle/tests/archivetest.cpp
+       kerfuffle/tests/jobstest.cpp
+       kerfuffle/tests/jsonarchiveinterface.cpp
+       kerfuffle/tests/jsonarchiveinterface.h
+       kerfuffle/tests/jsonparser.cpp
+       kerfuffle/tests/jsonparser.h
+       plugins/clirarplugin/autotests/clirartest.cpp
+       plugins/clirarplugin/autotests/clirartest.h
+       plugins/libarchive/libarchivehandler.cpp
+       plugins/libarchive/libarchivehandler.h
+       plugins/libsinglefileplugin/bz2plugin.cpp
+       plugins/libsinglefileplugin/bz2plugin.h
+       plugins/libsinglefileplugin/gzplugin.cpp
+       plugins/libsinglefileplugin/gzplugin.h
+       plugins/libsinglefileplugin/singlefileplugin.cpp
+       plugins/libsinglefileplugin/singlefileplugin.h
+       plugins/libsinglefileplugin/xzplugin.cpp
+       plugins/libsinglefileplugin/xzplugin.h
+Copyright: 2007, David Faure <faure@kde.org>
+           2015, Elvis Angelaccio <elvis.angelaccio@kdemail.net>
+           2008-2009, Harald Hvaal <haraldhv@stud.ntnu.no>
+           2007, Henrique Pinto <henrique.pinto@kdemail.net>
+           2009-2014, Raphael Kubo da Costa <rakuco@FreeBSD.org>
 License: BSD-2-clause
 
-Files: kerfuffle/*
-Copyright: 2008-2009, Harald Hvaal <haraldhv@stud.ntnu.no>
-	   2009-2011, Raphael Kubo da Costa <kubito@gmail.com>
-	   2007, David Faure <faure@kde.org>
-	   2007, Henrique Pinto <henrique.pinto@kdemail.net>
-License: BSD-2-clause
-
-Files: plugins/libarchive/*
-Copyright: 2007, Henrique Pinto <henrique.pinto@kdemail.net>
-	   2008-2009, Harald Hvaal <haraldhv@stud.ntnu.no>
-	   2010, Raphael Kubo da Costa <kubito@gmail.com>
-License: BSD-2-clause
-
-Files: plugins/libsinglefileplugin/*
-Copyright: 2009, Raphael Kubo da Costa <kubito@gmail.com>
-License: BSD-2-clause
-
-Files: plugins/clirarplugin/tests/*
-Copyright: 2011, Raphael Kubo da Costa <kubito@gmail.com>
-License: BSD-2-clause
+Files: doc/index.docbook
+Copyright: 2000, &Matt.Johnston
+           1997-2015, The Various &ark; Developers</para>
+License: GFDL-1.2+
 
 Files: debian/*
 Copyright: 2012, Eshat Cakar <info@eshat.de>
 License: GPL-2+
-
-License: GPL-2+
- This program is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License along
- with this program; if not, write to the Free Software Foundation, Inc.,
- 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
- .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
 
 License: BSD-2-clause
  Redistribution and use in source and binary forms, with or without
@@ -87,26 +132,41 @@ License: BSD-2-clause
  ( INCLUDING NEGLIGENCE OR OTHERWISE ) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-License: BSD-3-clause
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
+License: GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2
+ or any later version published by the Free Software Foundation;
+ with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ A copy of the license is included in the section entitled "GNU
+ Free Documentation License".
  .
- 1. Redistributions of source code must retain the copyright
-    notice, this list of conditions and the following disclaimer.
- 2. Redistributions in binary form must reproduce the copyright
-    notice, this list of conditions and the following disclaimer in the
-    documentation and/or other materials provided with the distribution.
- 3. The name of the author may not be used to endorse or promote products
-    derived from this software without specific prior written permission.
+ The complete text of the GNU Free Documentation License version 1.2 can be
+ found in the file `/usr/share/common-licenses/GFDL-1.2'.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
  .
- THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ .
+ The complete text of the GNU General Public License version 2 can be
+ found in the file `/usr/share/common-licenses/GPL-2'.
+
+License: LGPL-3+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 3 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ The complete text of the GNU Lesser General Public License version 3 can be
+ found in the file `/usr/share/common-licenses/GPL-3'.

@@ -40,7 +40,6 @@ Package: ark
 Section: utils
 Architecture: any
 Recommends: bzip2, p7zip-full, unar, unzip, zip
-Suggests: rar, unrar
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: archive utility
  Ark manages various archive formats, including tar, gzip, bzip2, rar and zip,

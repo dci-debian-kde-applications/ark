@@ -1,0 +1,31 @@
+From: Elvis Angelaccio <elvis.angelaccio@kdemail.net>
+Date: Thu, 07 Jul 2016 09:30:59 +0000
+Subject: Fix starting Ark from Plasma 5.7
+X-Git-Url: http://quickgit.kde.org/?p=ark.git&a=commitdiff&h=132743e572fb7550cbfbbe8db848f2a28a0001cb
+---
+Fix starting Ark from Plasma 5.7
+
+Plasma 5.7 introduced some changes that exposed a bug in Ark, resulting in the
+app not starting when invoked from the start menu or KRunner.
+
+Dropping the X-KDE-HasTempFileOption property from the Ark .desktop file fixes
+this issue.
+
+This property was (wrongly) set in commit bc6dcce537af, where Ark was ported
+away from KUniqueApplication.
+
+Thanks to Ragnar Thomsen for the bugfix.
+---
+
+
+--- a/app/org.kde.ark.desktop.cmake
++++ b/app/org.kde.ark.desktop.cmake
+@@ -154,7 +154,6 @@
+ Terminal=false
+ X-DBUS-StartupType=Multi
+ X-DBUS-ServiceName=org.kde.ark
+-X-KDE-HasTempFileOption=true
+ Categories=Qt;KDE;Utility;Archiving;Compression;X-KDE-Utilities-File;
+ InitialPreference=3
+ Comment=Work with file archives
+

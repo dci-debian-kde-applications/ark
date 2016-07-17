@@ -1,15 +1,12 @@
-ark (4:16.04.3-1~1.gbpac7d9b) UNRELEASED; urgency=medium
+ark (4:16.04.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ac7d9b92295ae09e5a7e010a7f86d69695cf1738 **
-
-  * Team upload.
+  [ Scott Kitterman ]
   * Add unar to Recommends and drop obsolete Suggests on various rar
     extraction packages since unar is now what upstream supports
     (Closes: #829265)
     -  Thanks to Alex Henry for the report and the solution
-  * UNRELEASED
 
- -- Scott Kitterman <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 19:08:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 17 Jul 2016 21:01:20 +0200
 
 ark (4:16.04.2-1) unstable; urgency=medium
 

@@ -1,1 +1,2 @@
 ark: package-name-doesnt-match-sonames libkerfuffle*
+ark source: source-is-missing autotests/kerfuffle/data/hello-1.0-x86_64.AppImage

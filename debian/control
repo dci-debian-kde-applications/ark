@@ -27,7 +27,6 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5service-dev (>= 5.16.0~),
                libkf5widgetsaddons-dev (>= 5.16.0~),
                liblzma-dev,
-               libqjson-dev,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.4.0~),
                zlib1g-dev

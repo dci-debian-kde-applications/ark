@@ -1,28 +1,12 @@
-ark (4:16.08.2-1~1.gbp5c118c) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @5c118c43f9ab4045ba5471cd15393082d23518d6 **
-
-  [ Maximiliano Curia ]
-  ** SNAPSHOT build @4735248b380eb5dc1a5ce49c105dfbd280077038 **
-
-  * UNRELEASED
-
-  [ Pino Toscano ]
-  * start a new changelog entry for 4:16.04.3-2
-  * remove unused libqjson-dev B-D
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
-
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 19:08:37 +0200
-
-ark (4:16.04.3-2) UNRELEASED; urgency=medium
+ark (4:16.08.2-1) unstable; urgency=medium
 
   [ Pino Toscano ]
   * Remove unused libqjson-dev build dependency.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 20 Aug 2016 15:22:08 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 17 Oct 2016 21:20:12 +0200
 
 ark (4:16.04.3-1) unstable; urgency=medium
 

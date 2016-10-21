@@ -1,2 +1,3 @@
 use_libarchive_for_zip_files
 upstream_remove_part_from_KXMLGUIFactory_on_exit
+Stop-crashing-on-exit-when-being-used-solely-as-a-KPart.patch

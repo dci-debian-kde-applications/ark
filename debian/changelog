@@ -1,3 +1,11 @@
+ark (4:4.14.2-2+deb8u1) jessie; urgency=medium
+
+  * Add new upstream patch:
+    Stop-crashing-on-exit-when-being-used-solely-as-a-KPart.patch.
+    Thanks to Nick Leverton for reporting (Closes: 800021, 770840)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 21 Oct 2016 20:52:52 +0200
+
 ark (4:4.14.2-2) unstable; urgency=medium
 
   * New upstream patch: upstream_remove_part_from_KXMLGUIFactory_on_exit

@@ -1,10 +1,8 @@
-ark (4:16.08.3-1~1.gbp058f3c) UNRELEASED; urgency=medium
+ark (4:16.08.3-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @058f3cd9fc59342b69b5cb978e57e00747bec5cb **
+  * New upstream release (16.08.3)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 16 Nov 2016 19:08:14 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 20:48:43 +0100
 
 ark (4:16.08.2-1) unstable; urgency=medium
 

@@ -42,6 +42,8 @@ Section: utils
 Architecture: any
 Recommends: bzip2, p7zip-full, unzip, zip
 Suggests: rar, unrar | unrar-free
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: archive utility
  Ark manages various archive formats, including tar, gzip, bzip2, rar and zip,

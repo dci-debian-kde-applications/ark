@@ -1,1 +1,1 @@
-ark: package-name-doesnt-match-sonames libkerfuffle15
+ark: package-name-doesnt-match-sonames libkerfuffle*

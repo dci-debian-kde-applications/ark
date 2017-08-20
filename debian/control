@@ -43,8 +43,12 @@ Section: utils
 Architecture: any
 Recommends: bzip2, p7zip-full, unar, unzip, zip
 Suggests: rar, unrar | unrar-free
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        ${kde-l10n:all},
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          ${kde-l10n:all},
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: archive utility
  Ark manages various archive formats, including tar, gzip, bzip2, rar and zip,

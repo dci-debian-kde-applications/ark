@@ -35,6 +35,17 @@ plugs:
         default-provider: kde-frameworks-5
         target: kf5
 parts:
+    kde-frameworks-5-dev:
+        plugin: dump
+        prime:
+        - "-*"
+        source: https://build.neon.kde.org/job/kde-frameworks-5-release_amd64.snap/lastSuccessfulBuild/artifact/kde-frameworks-5-dev_amd64.tar.xz
+    kde-frameworks-5-env:
+        plugin: dump
+        prime:
+        - kf5-launch
+        - kf5
+        source: https://github.com/apachelogger/kf5-snap-env.git
     ark:
         after:
         - kde-frameworks-5-dev
@@ -47,7 +58,6 @@ parts:
         - libkf5khtml-dev
         - liblzma-dev
         - libqjson-dev
-        - libzip5-dev
         - zlib1g-dev
         - libpulse0
         source: https://download.kde.org/stable/applications/17.08.1/src/ark-17.08.1.tar.xz

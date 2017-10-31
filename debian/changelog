@@ -1,8 +1,13 @@
-ark (4:17.08.0-1~) UNRELEASED; urgency=medium
+ark (4:17.08.0-1~1) UNRELEASED; urgency=medium
 
   * New upstream release (17.08.0)
+  * Bump Standards-Version to 4.0.1.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * Drop upstream patch
+  * Update uploaders list as requested by MIA team (Closes: #879291)
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 20 Aug 2017 18:22:23 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 Oct 2017 17:58:03 +0100
 
 ark (4:17.08.0-0neon) xenial; urgency=medium
 

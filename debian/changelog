@@ -19,6 +19,7 @@ ark (4:17.08.3-0r1) UNRELEASED; urgency=medium
     - drop ark.install, and not-installed, no more useful now
   * Remove unused transitional kdoctools-dev, and kio-dev build dependencies.
   * Explicitly add gettext, and pkg-config as build dependencies.
+  * Update lintian overrides.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:58:03 +0100
 

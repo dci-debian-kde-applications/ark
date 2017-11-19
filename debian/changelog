@@ -17,6 +17,7 @@ ark (4:17.08.3-0r1) UNRELEASED; urgency=medium
     everything to the final location
     - remove .so symlinks
     - drop ark.install, and not-installed, no more useful now
+  * Remove unused transitional kdoctools-dev, and kio-dev build dependencies.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:58:03 +0100
 

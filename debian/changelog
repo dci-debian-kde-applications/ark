@@ -1,5 +1,6 @@
-ark (4:17.08.0-1~1) UNRELEASED; urgency=medium
+ark (4:17.08.3-0r1) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (17.08.0)
   * Bump Standards-Version to 4.0.1.
   * Update upstream metadata
@@ -7,7 +8,10 @@ ark (4:17.08.0-1~1) UNRELEASED; urgency=medium
   * Drop upstream patch
   * Update uploaders list as requested by MIA team (Closes: #879291)
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 31 Oct 2017 17:58:03 +0100
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:58:03 +0100
 
 ark (4:17.08.0-0neon) xenial; urgency=medium
 

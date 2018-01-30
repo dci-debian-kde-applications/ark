@@ -1,3 +1,21 @@
+ark (4:17.12.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 13 Dec 2017 14:24:00 +0000
+
+ark (4:17.08.3-0neon) bionic; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Nov 2017 10:55:33 +0000
+
+ark (4:17.08.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Sun, 15 Oct 2017 12:46:29 +0000
+
 ark (4:17.08.1-0neon) xenial; urgency=medium
 
   * New release
